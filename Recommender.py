@@ -44,7 +44,6 @@ class Recommender:
             self.temp.seek(0)
 
             self.G=nx.read_adjlist(self.temp)
-            #self.G=nx.read_adjlist("Githubdataset.txt")
         finally:
             self.temp.close()
 
