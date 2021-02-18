@@ -13,7 +13,7 @@ Gunicorn is used as a server, FLask as light framework and networkx to compute t
 
 ![](bipartite.gif)
 
-```
+
 Sufficient Condition
 Let G=(V,E) be bipartite.
 
@@ -74,7 +74,7 @@ By the same argument, neither can any two vertices in B be adjacent.
 
 Thus A and B satisfy the conditions for G=(A∪B,E) to be bipartite.
 (Source wikipedia)
-```
+
 
 ## Installation
 
