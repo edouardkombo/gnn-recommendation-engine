@@ -13,8 +13,7 @@ Gunicorn is used as a server, FLask as light framework and networkx to compute t
 
 ![](bipartite.gif)
 
-
-Sufficient Condition
+### Sufficient Condition
 Let G=(V,E) be bipartite.
 
 So, let V=A∪B such that A∩B=∅ and that all edges e∈E are such that e is of the form {a,b} where a∈A and b∈B.
@@ -22,7 +21,7 @@ So, let V=A∪B such that A∩B=∅ and that all edges e∈E are such that e is 
 (This is the definition of a bipartite graph.)
 
 
-Suppose G has (at least) one odd cycle C.
+#### Suppose G has (at least) one odd cycle C.
 
 Let the length of C be n.
 
@@ -43,11 +42,11 @@ Hence if G is bipartite, it has no odd cycles.
 
 
 
-Necessary Condition
+### Necessary Condition
 It is enough to consider G as being connected, as otherwise we could consider each component separately.
 
 
-Suppose G has no odd cycles.
+#### Suppose G has no odd cycles.
 
 Choose any vertex v∈G.
 
@@ -58,7 +57,7 @@ Let B be the set of vertices such that the shortest path from each element of B 
 Then v∈B and A∩B=∅.
 
 
-Suppose a1,a2∈A are adjacent.
+#### Suppose a1,a2∈A are adjacent.
 
 Then there would be a closed walk of odd length (v,…,a1,a2,…,v).
 
