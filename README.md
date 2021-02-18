@@ -1,4 +1,4 @@
-# Recommendation engine using GNN (Graph Neural Network) bipartite, Python, Networkx, Mysql
+# Recommendation engine using GNN (Graph Neural Network) bipartite, Python, Flask, Gunicorn, Networkx, Mysql
 
 The goal of this project is to recommend to some players, potential games they would be likely to play based upon other players interactions, so the system will learn by itself.
 
