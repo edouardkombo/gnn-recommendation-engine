@@ -11,7 +11,7 @@ Gunicorn is used as a server, FLask as light framework and networkx to compute t
 
 ## Understanding of Bipartite GNN
 
-![](https://data.dgl.ai/tutorial/img/bipartite.gif)
+![](bipartite.gif)
 
 ```
 Sufficient Condition
@@ -116,8 +116,6 @@ Internally, the engine will compute your query results in a txt graph format lik
 p123 g345 g84595 g41528 # Games played by one player
 g123 p45454 p66455354 p5335535 p245655 p3535353 # All players linked to a game
 p456 # This player had played no game yet
-...
-
 ```
 
 3. Specify the query to retrieve data of the most similar player
